@@ -1,0 +1,1 @@
+gcc -m64 -fpic -shared -o libpopcnt.so -msse4.2 -O3 -std=c99 popcnt.c
