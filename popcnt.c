@@ -41,7 +41,7 @@ int main(void) {
         popCnt64(i1 ^ i2);
 //    }
     end = clock();
-    printf("%.2f秒かかりました\n", (double) (end - start) / CLOCKS_PER_SEC);
+    printf("%.2f[sec]\n", (double) (end - start) / CLOCKS_PER_SEC);
     return 0;
 }
 
